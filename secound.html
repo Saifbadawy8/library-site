@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>New Page - Book Collection</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="new">
+  <div class="main">
+    <h2>Explore Our Collection</h2>
+    <div class="book-list">
+      <div class="book-card">
+        <!-- <img src="#" alt="Book cover" class="book-cover"/> -->
+        <p>Book cover</p>
+        <h3>Book Title 1</h3>
+        <p>Author Name</p>
+        <p class="available">Available</p>
+        <button class="reserve-button">Reserve</button>
+      </div>
+      <div class="book-card">
+        <!-- <img src="#" alt="Book cover" class="book-cover"/> -->
+        <p>Book cover</p>
+        <h3>Book Title 2</h3>
+        <p>Author Name</p>
+        <p class="available">Available</p>
+        <button class="reserve-button">Reserve</button>
+      </div>
+      <div class="book-card">
+        <!-- <img src="#" alt="Book cover" class="book-cover"/> -->
+        <p>Book cover</p>
+        <h3>Book Title 3</h3>
+        <p>Author Name</p>
+        <p class="available">Available</p>
+        <button class="reserve-button">Reserve</button>
+      </div>
+    </div>
+
+    <div class="reservation-section">
+      <h2>Reserve a Book</h2>
+      <label for="bookSelect">Select a Book:</label>
+      <select id="bookSelect">
+        <option>Choose a book</option>
+        <option>Book Title 1</option>
+        <option>Book Title 2</option>
+        <option>Book Title 3</option>
+      </select>
+
+      <label for="dateTime">Pick Date & Time:</label>
+      <input type="datetime-local" id="dateTime" />
+
+      <button onclick="confirmReservation()">Confirm Reservation</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,177 @@
+body  {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height : 100vh;
+}
+body.main {
+  background: linear-gradient(to bottom right, #d1f1d3, #b0eab3);
+
+}
+
+.container {
+  text-align: center;
+  max-width : 600px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #1b5e20;
+  font-weight: bold;
+  margin-bottom : 10px;
+}
+
+p {
+  color: #2e7d32;
+  font-size: 1rem;
+  margin-bottom : 30px;
+}
+
+input[type="text"] {
+  width : 80%;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+}
+
+.nav-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007b55;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 20px 0;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #005e40;
+}
+
+
+
+body.new {
+  background: white;
+  margin: 20px;
+}
+
+h2 {
+  color: #044d29;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  /* padding: 10px; */
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom : 60px;
+  margin: 10px;
+}
+
+/* Book Card Styling */
+.book-card {
+  background-color: #ccf5cc;
+  border-radius: 12px;
+  padding: 20px;
+  width : 260px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.book-cover {
+  width : 100%;
+  height  : 140px;
+  background-color: #e0ffe0;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom : 10px;
+}
+
+.book-card h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.book-card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.available {
+  color: green;
+  font-weight: bold;
+}
+
+.reserve-button {
+  background-color: #007f5f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top : 10px;
+}
+
+.reserve-button:hover {
+  background-color: #005f46;
+}
+
+
+.reservation-section {
+  background-color: #d6f5d6;
+  padding: 40px 20px;
+  max-width : 600px;
+  margin: 0 auto 60px;
+  border-radius: 12px;
+  text-align : left;
+}
+
+.reservation-section h2 {
+  text-align: center;
+  margin-bottom : 30px;
+}
+
+.reservation-section label {
+  display: block;
+  margin: 15px 0 5px;
+  font-weight: 600;
+}
+
+.reservation-section select,
+.reservation-section input[type="datetime-local"] {
+  width : 100%;
+  padding: 10px;
+  border: 1px solid #b2d8b2;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.reservation-section button {
+  margin-top : 25px;
+  width : 100%;
+  background-color: #007f5f;
+  color: white;
+  padding: 12px;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.reservation-section button:hover {
+  background-color: #005f46;
+}
